@@ -1,0 +1,50 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background: radial-gradient(circle, rgba(149,213,178,1) 0%, rgba(27,67,50,1) 100%);
+}
+.topo{
+    margin-left: 50px;
+}
+.menu{
+    margin-top: -90px; 
+    /* margin-right: -390px; */
+    margin-left: 600px;
+}
+.menu a:hover{
+    border-bottom: 5px solid #1B4332;
+}
+.menu a{
+    text-transform: uppercase;
+    color: #000000;
+    align-items: flex-end;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-right: 50px; 
+}
+.titulo{
+    margin-top: 90px;
+}
+
+.botao input{
+    background-color: #3D746C;
+    padding: 1rem 4rem 1rem 4rem;
+    border: none;
+    border-radius: 120px;
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.botao input:hover{
+    background-color: #b7e4c7 ;
+    transform: scaleY(1.2);
+}
+.fixarRodape {
+    bottom: 30px;
+    position: fixed; 
+    width: 100%;
+    text-align: center;
+}
+

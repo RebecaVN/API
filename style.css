@@ -1,0 +1,68 @@
+/* *{
+    background: linear-gradient(180.01deg, #40916C 0.01%, rgba(64, 145, 108, 0) 99.99%);
+} */
+.topo{
+    background-color: #40916C;
+}
+.menu{
+    margin-top: 40px; 
+    /* margin-right: -390px; */
+}
+.menu a:hover{
+    border-bottom: 5px solid #1B4332;
+}
+.menu a{
+    text-transform: uppercase;
+    color: #ffff;
+    align-items: flex-end;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-right: 50px; 
+}
+body{
+    background-color: #40916C;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image{
+    /* margin:0 auto; */
+    text-align: center;
+    width: 100px;
+    margin-left: 30px;
+    
+}  
+
+.produto{
+    width: 390px;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 180px;
+}  
+.produto2 img{
+    margin-top: 450px;
+}
+
+.produto button:hover{
+    background-color: #b7e4c7;
+    transform: scaleY(1.2);
+} 
+.produto button {
+    background-color: #1B4332;
+    width: 190px; 
+    height: 60px;
+    border: none;
+    border-radius: 120px;
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.fixarRodape {
+    /* bottom: 0;
+    position: fixed; */
+    width: 70%;
+    text-align: center;
+}

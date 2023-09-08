@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão do tempo</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="tempo.css" />
+  </head>
+  <body>
+      <img class="img-topo" src="./img/logoT.png" alt="" />
+      <header class="topo">
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="cep.html">CEP</a>
+          <a href="dolar.html">Dólar</a>
+          <a href="jogo.html">Jogo</a>
+          <a href="apiF.html">Loja</a>
+        </nav>
+    </header>
+    <main class="conteudo-clima">
+      <section class="clima">
+        <center>
+        <h1 class="texto">Consulte a previsão do tempo:</h1>
+
+        <label for="">Digite uma cidade</label>
+        <input type="text"  id="cidade" />
+        <button class="botao-clima" id="botao" onclick="getWeather()">Resultado</button>
+  
+        <p id="temperatura">Temperatura:</p>
+    </center>
+    <footer class="footer">
+    
+    </main>
+   
+        
+    <script>
+      //biblioteca axios para realizar uma requisição http a API da OpenWatherMap e obter a previsão
+
+      // essa linha define a função getWeather como uma função assincrona. Esperando uma resposta da API
+
+      async function getWeather() {
+        const cidade = document.querySelector("#cidade").value;
+        // nesta linha fazendo uma chamada a API usando a biblioteca AXIOS. A URL da API inclui todas as informações de localização (Mogi das cruzes), a unidade de medida (Celsius) e chave API KEY.
+        const response = await axios.get(
+          `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&units=metric&appid=64ed82577ced7f69cb1687f0ce536131`
+        );
+
+        //Resposta em (Celsius e a localização) e armazenar na variavel tempCelsius
+
+        const tempCelsius = response.data.main.temp;
+
+        document.querySelector(
+          "#temperatura"
+        ).innerHTML = `A Temperatura  atual em ${cidade} é de: ${tempCelsius.toFixed(
+          1
+        )} °C`;
+      }
+
+      //Chamando a função getWeather para iniciar a consulta da API
+      getWeather();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+body{
+    background: radial-gradient(circle, rgba(149,213,178,1) 0%, rgba(27,67,50,1) 100%);
+}
+
+.menu{
+    margin-top: 40px; 
+    margin-right: -390px; 
+}
+.menu a:hover{
+    border-bottom: 3px solid #1B4332;
+}
+.menu a{
+    text-transform: uppercase;
+    color: #ffff;
+    align-items: flex-end;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-right: 70px; 
+}
+body{
+    background-color: #40916C; 
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.atualy{
+    margin-top: 100px;
+   font-size: 50px;
+   font-family:fantasy;
+   margin-left:450px;
+   color: #1B4332;
+}
+.atual{
+   font-size: 50px;
+   font-family:fantasy;
+   margin-left:440px;
+   color: #1B4332;
+}
+.titulo{
+    margin-top: 20px; 
+    margin-left: 350px;
+}
+.invest{
+    margin-left:790px;
+    margin-top:-650px;
+}
+.titulo{
+    font-family:fantasy;
+}
+.botao{
+    margin-top: 20px;
+    margin-left:280px;
+}
+.botao{
+    font-family: cursive;
+}
+.botao input{
+    border-radius: 120px;
+    width: 250px;
+    height: 40px;
+    font-family: cursive;
+}
+.dol{
+    margin-top: 60px;
+    margin-left:340px;
+}
+.fixarRodape {
+    bottom: 30px;
+    position: fixed;
+    width: 70%;
+}

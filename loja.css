@@ -1,0 +1,74 @@
+body{
+    background-image: url(img/backg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    margin-top:-70px;
+    margin-left:800px;
+    font-family:fantasy;
+}
+.menu a:hover{
+    border-bottom: 5px solid #1B4332;
+}
+.menu a{
+    text-transform: uppercase;
+    color: #104626;
+    align-items: flex-end;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 30px; 
+}
+.titulo{
+    margin-top: 70px;
+    font-family: 'serif';
+    color: #0d2e1a;
+}
+.porq{
+    margin-bottom:50px;
+    margin-left: 60px;
+}
+.fixarRodape {
+    font-family:cursive;
+}
+.produto{
+    margin-left:140px;
+    margin-top:40px;
+}
+.botao1{
+    border-radius: 120px;
+    border-color: #009473;
+    background-color: #009473;
+    font-family: cursive;
+    width: 170px;
+    height: 40px;
+    margin-left: 360px;
+}
+.botao{
+    border-radius: 120px;
+    border-color: #009473;
+    background-color: #009473;
+    font-family:cursive;
+    width: 170px;
+    height: 40px;
+    margin-left: 148px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom:100px;
+}
+.botao1:active {
+	background-color: #104626;
+	color: #fff;
+}
+.botao:active {
+	background-color: #104626;
+	color: #fff;
+}
+.botao button:hover{
+    background-color: #104626;
+    transform: scaleY(1.2);
+} 
+.botao1 button:hover{
+    background-color: #104626;
+    transform: scaleY(1.2);
+} 

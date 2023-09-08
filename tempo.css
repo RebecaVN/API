@@ -1,0 +1,62 @@
+body{
+    background-image: url(./img/blob-scene-haikei.svg);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-repeat: no-repeat;
+}
+.topo{
+    margin-top: -130px; 
+    margin-left: 800px;
+}
+.topo a:hover{
+    border-bottom: 5px solid #1B4332;
+}
+.topo a{
+    text-transform: uppercase;
+    color: #94D4A2;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 50px; 
+}
+.clima{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 250px;
+    font-size: 30px;
+    color: #3d3d3d;
+    
+}
+.clima{
+    font-family: cursive;
+    color: #3d3d3d;
+}
+.clima input{
+    border-radius: 120px;
+    width: 500px;
+    height: 40px;
+    background-color: #94D4A2;
+    text-transform: uppercase;
+    border: #94D4A2;
+}
+.clima:focus{
+    background-color: #94D4A2;
+}
+*{
+    margin: 0 auto;
+}
+
+.clima button:active{
+    background-color: #1b4123;
+
+}
+.clima button{
+    border-radius: 100px;
+    font-family: cursive;
+    background-color: #94D4A2;
+}
+
+.temperature{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3d3d3d;
+}
+body{
+    font-family: cursive;
+}

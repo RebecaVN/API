@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API - ATORES </title>
+    <link rel="stylesheet" type="text/css" href="jogo.css">
+    
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 topo">
+                        <img src="./img/logoJ.png">
+                </div>
+                <div class="col-6 menu">
+                    <a href="index.html" >Home</a>
+                    <a href="cep.html"target="_blank">Cep</a>
+                    <a href="dolar.html"target="_blank">Dólar</a>
+                    <a href="tempo.html"target="_blank">Clima</a>
+                    <a href="jogo.html"target="_blank">Jogo</a>
+                    <a href="apiF.html"target="_blank">Loja</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<center>
+<h1 class="titulo">Descubra o ator/atriz:</h1>
+</center>
+
+
+<script type="text/javascript">
+    function changeImage(a) {
+        document.getElementById("img").src=a;
+    }
+</script>
+<div id="main_img">
+    <center>
+    <img id="img" src=   >
+</center>
+<div id="thumb_img">
+    <center>
+    <img src='./img/carta.png' onclick='changeImage("img/Adam.png");'>
+    <img src='./img/carta.png'  onclick='changeImage("img/Anne.png");'>
+    <img src='./img/carta.png'  onclick='changeImage("img/Jennifer.png");'>
+    <img src='./img/carta.png'  onclick='changeImage("img/will.png");'>
+    <img src='./img/carta.png'  onclick='changeImage("img/Megan.png");'>
+    <img src='./img/carta.png'  onclick='changeImage("img/theRock.png");'><br><br>
+</center>
+<div class="botao">   
+<center>
+    <input type="button"  onclick="exibir()" value="ATOR">
+    <input type="button" onclick="exibir2()" value="ATOR">
+    <input type="button" onclick="exibir3()" value="ATOR">
+    <input type="button" onclick="exibir4()" value="ATOR">
+    <input type="button" onclick="exibir5()" value="ATOR">
+    <input type="button" onclick="exibir6()" value="ATOR">
+</center>
+</div>
+</div>
+    <ul>
+        <li id="Nome"></li>
+        <li id="Profissao"></li>
+        <li id="Idade"></li>
+        <li id="carreira"></li>
+    </ul>
+   
+   
+    <div class="container body-content">
+        <center>
+            <footer class="fixarRodape">
+            <p>copyright &copy; Todos os direitos reservados.</p> 
+        </center>
+            </footer>
+        </div>
+
+<script  src="jogo.js"></script>   
+</body>
+</html>
